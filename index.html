@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<title>Website Portfólio</title>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
@@ -19,9 +20,9 @@
 				<li><a href="#home">Home</a></li>
 				<li><a href="#sobre">Sobre Nós</a></li>
 				<li><a href="#area">Nossos Produtos</a></li>
-				<li><a href="#frase">Contato</a></li>
+				<li><a href="#contato">Contato</a></li>
 			</ul>
-			<a href="#" class="btn">Subscribe</a>
+			<a href="#contato" class="btn">Subscribe</a>
 		</nav>
 
 		<div class="content">
@@ -48,7 +49,7 @@
 				<p>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsum ex cumque laudantium earum blanditiis, sint voluptatum delectus aliquam aut qui fugiat enim odit libero rem, excepturi architecto quasi et.
 				</p>
-				<button type="button">Saiba mais...</button>
+				<button type="button" href="#contato">Saiba mais...</button>
 			</div>
 		</div>
 	</section>
@@ -58,36 +59,36 @@
 
 	<div class="servico" id="area">
 		<div class="title">
-			<h2>Nossa áreas!</h2>
+			<h2>Nossos Produtos</h2>
 		</div>
 		<div class="box">
 			<div class="card">
-				<i class="fas fa-bars"></i>
-				<h5>Desenvolvimento de Sistemas <br> para áres da saúde</h5>
+				<i class="fas fa-book-medical"></i>
+				<h5>Desenvolvimento de Sistemas <br> para áreas da saúde</h5>
 				<div class="pra">
 					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat similique reprehenderit in labore iusto hic repudiandae excepturi. Ex animi nobis cupiditate quidem nisi tempora sequi voluptates et, laborum molestias eveniet.</p>
 					<p>
-						<a class="button" href="#">Saiba mais...</a>
+						<a class="button" href="#contato">Saiba mais...</a>
 					</p>
 				</div>
 			</div>
 			<div class="card">
 				<i class="fas fa-user"></i>
-				<h5>Redes e <br> Hardware</h5>
+				<h5>Treinamento e capacitação de <br> Equipes Multidisciplinares</h5>
 				<div class="pra">
 					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat similique reprehenderit in labore iusto hic repudiandae excepturi. Ex animi nobis cupiditate quidem nisi tempora sequi voluptates et, laborum molestias eveniet.</p>
 					<p>
-						<a class="button" href="#">Saiba mais...</a>
+						<a class="button" href="#contato">Saiba mais...</a>
 					</p>
 				</div>
 			</div>
 			<div class="card">
-				<i class="fas fa-bell"></i>
-				<h5>Gestão e <br> Inovação</h5>
+				<i class="fas fa-clinic-medical"></i>
+				<h5>Gestão de Pacientes e<br> Exames</h5>
 				<div class="pra">
 					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat similique reprehenderit in labore iusto hic repudiandae excepturi. Ex animi nobis cupiditate quidem nisi tempora sequi voluptates et, laborum molestias eveniet.</p>
 					<p>
-						<a class="button" href="#">Saiba mais...</a>
+						<a class="button" href="#contato">Saiba mais...</a>
 					</p>
 				</div>
 			</div>
@@ -95,19 +96,47 @@
 		</div>
 	</div>
 
-	<!------Frase------>
+	<!------contato------>
 
-	<div class="frase" id="frase">
-		<p>O essencial é invisível aos olhos.</p>
-		<a class="button" href="#">Steve Jobs</a>
+	<div class="frase" id="contato">
+		<div class="form-contato">
+        	<h3>Contato</h3>
+        	<p>Duvidas<span>?</span> Entre em contato<span>!</span></p>
+        	<form>
+        	  	<p><input class="form-input" type="text" placeholder="Nome" name="Name" required=""></p>
+        	  	<p><input class="form-input" type="text" placeholder="Email" name="Email" required=""></p>
+        	  	<p><input class="form-input" type="text" placeholder="Assunto" name="Subject" required=""></p>
+        	  	<p><input class="form-input" type="text" placeholder="Messagem" name="Message" required=""></p>
+        	  	<button type="submit" class="w3-button w3-block w3-black">Enviar</button>
+        	</form>
+      	</div>
 	</div>
 
 	<!------Rodapé - Contato--------->
 	<footer>
-		<p>Sistemas de Informação</p>
-		<p>Um curso, mútiplas possibilidades</p>
+		<p>O essencial é invisível aos olhos.</p>
+		<p>Antoine de Saint-Exupéry</p>
+		<div class="clientes">
+			<div class="clientes-title">
+				<h2>Nossos Clientes</h2>
+			</div>
+			<div class="clientes-box">
+				<div class="card-cliente">
+					<h5>Uniplac</h5>
+				</div>
+				<div class="card-cliente">
+					<h5>SER | CER II</h5>
+				</div>
+				<div class="card-cliente">
+					<h5>IncoreLages</h5>
+				</div>
+				<div class="card-cliente">
+					<h5>DuoPilates</h5>
+				</div>
+			</div>
+		</div>
 		<div class="social">
-			<a href="#"> <i class="fab fa-github"></i> </a>
+			<a href="https://github.com/Bruhkamargo"> <i class="fab fa-github"></i> </a>
 			<p class="end">Copyright By Bruno Camargo</p>
 		</div>
 	</footer>
