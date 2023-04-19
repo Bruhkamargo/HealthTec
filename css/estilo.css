@@ -17,6 +17,7 @@
     background-image: url(../img/background.png);
     background-size: cover;
     background-position: center;
+    box-shadow: inset 0px -40px 40px var(--Color-1);
 }
 
 nav {
@@ -36,6 +37,9 @@ nav {
 
 span {
     color: var(--Color-2);
+}
+span:nth-child(2){
+    color: var(--Color-3);
 }
 
 nav ul li {
@@ -203,6 +207,9 @@ button:hover {
     background-image: url(../img/background.png);
     width: 100%;
     padding: 100px 0px;    
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px -40px 40px var(--Color-1);
 }
 
 .title h2 {
@@ -346,6 +353,7 @@ footer p:nth-child(2) {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0px -40px 40px var(--Color-1);
 }
 
 .clientes-title {
@@ -359,6 +367,9 @@ footer p:nth-child(2) {
     align-items: center;
 }
 
+.card-cliente:hover {
+    transform: scale(1.2);
+}
 .clientes-box div {
     background-color: var(--Color-3);
     display: flex;
@@ -369,6 +380,7 @@ footer p:nth-child(2) {
     margin: auto 100px;
     align-items: center;
     justify-content: center;
+    transition: .4s;
 }
 
 .social {
